@@ -1,0 +1,136 @@
+:root{
+    --tam-page:1500px;
+    ;
+}
+
+
+
+/* -- reset de página */
+
+*{
+    margin:0;/* zera as margens */
+    padding:0;/* zera os epsaçamentos internos */
+    box-sizing: border-box;/* calcula a largura e altura dos elementos sem levar em conta, padding e border */
+    font-family: Arial, Helvetica, sans-serif;/* família de fontes Arial, Helvetica, sans-serif*/
+}
+
+.Base{
+width: 100%;
+height: 1500;
+border: 1px solid red;
+flex-wrap:wrap; 
+ align-items: center;
+text-align: center;
+display: flex;
+align-items:flex-start ;
+}
+.menu{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid rgb(60, 0, 255); */
+    text-align: start;
+    background-color: rgb(87, 85, 85);
+    
+}
+.menu img{
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid rgb(60, 0, 255); */
+    align-items: start;
+    
+}
+.menu ol{
+    width: 100%;
+    height: 300px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace color#777;
+    text-decoration: none; 
+    color: #fff;
+    
+
+}
+.menu_links {
+    width:100% ;
+    height: 50px;
+    border: 1px solid red;
+    justify-content: space-between;
+    text-align: center;
+    align-items: flex-end;
+}
+.menu_links a{
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.menu ol a{
+    justify-content: space-evenly;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none; 
+    
+}
+.menu ol a :hover{
+    justify-content: space-evenly;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    background-color: #fff; 
+    
+}
+
+.corpo{
+    width: 100%;
+    height: 1500px;
+    border: 1px solid yellow;
+    align-items:start ;
+    text-align: center;
+    
+    display: flex;
+}
+.feed{
+    width: 90% ;
+    height: var(--tam-page);
+    border: 1px solid black;
+    display: flex;
+    
+}
+.produto_feed img{
+    width: 180px ;
+    height: 120px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+.Ap_prod_feed {
+    width: 202px;
+    height: 250px;
+    align-items: center;
+    border: 1px solid rgb(8, 8, 8);
+    
+}
+.Ap_prod_feed h2{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: black;
+
+}
+.Ap_prod_feed p2{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+    font-style: oblique;
+}
+.menu_lateral{
+    width:10% ;
+    height: var(--tam-page);
+    border: 1px solid black;
+}
+.rodape{
+    margin-top: 0px;
+    width: 100%;
+    height: 300px;
+    border: 1px solid rgb(255, 0, 179);
+    text-align: center;
+    /* position: end; */
+    align-items:start ;
+}
