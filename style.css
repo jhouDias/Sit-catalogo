@@ -1,23 +1,26 @@
 :root{
+   
     --tam-page:1500px;
     ;
+
+
+
+
+
 }
-
-
-
-/* -- reset de página */
-
 *{
+/* -- reset de página */
     margin:0;/* zera as margens */
     padding:0;/* zera os epsaçamentos internos */
     box-sizing: border-box;/* calcula a largura e altura dos elementos sem levar em conta, padding e border */
     font-family: Arial, Helvetica, sans-serif;/* família de fontes Arial, Helvetica, sans-serif*/
+
 }
 
 .Base{
 width: 100%;
 height: 1500;
-border: 1px solid red;
+/* border: 1px solid red; */
 flex-wrap:wrap; 
  align-items: center;
 text-align: center;
@@ -29,7 +32,7 @@ align-items:flex-start ;
     height: 300px;
     /* border: 1px solid rgb(60, 0, 255); */
     text-align: start;
-    background-color: rgb(87, 85, 85);
+    background-color: #000000;
     
 }
 .menu img{
@@ -53,7 +56,7 @@ align-items:flex-start ;
 .menu_links {
     width:100% ;
     height: 50px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: space-between;
     text-align: center;
     align-items: flex-end;
@@ -83,28 +86,29 @@ align-items:flex-start ;
 .corpo{
     width: 100%;
     height: 1500px;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     align-items:start ;
     text-align: center;
     
     display: flex;
 }
 .feed{
-    width: 90% ;
+    width: 80% ;
     height: var(--tam-page);
     border: 1px solid black;
     display: flex;
+    background-color: #9a9292;
     
 }
 .produto_feed img{
     width: 180px ;
     height: 120px;
-    border: 1px solid black;
+    border: 2px solid black;
     margin-top: 5px;
 }
 .Ap_prod_feed {
-    width: 202px;
-    height: 250px;
+    width: 230px;
+    height: 270px;
     align-items: center;
     border: 1px solid rgb(8, 8, 8);
     
@@ -121,16 +125,45 @@ align-items:flex-start ;
     font-style: oblique;
 }
 .menu_lateral{
-    width:10% ;
+    width:20% ;
     height: var(--tam-page);
     border: 1px solid black;
+    background-color:#737373 ;
 }
+.menu_lateral summary{
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 20px; 
+   color: #fff;
+   background-color: #262626;
+    border: 1px solid #737373;
+    text-align: left;
+    
+   
+}
+.menu_lateral  ul{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px; 
+    color: #fff;
+    background-color: #404040;
+     border: 1px solid #fdf9f9;
+     text-align: left;
+
+}
+.Titulo_menu{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px; 
+    color: #faf5f5;
+    background-color: #000000;
+     /* border: 1px solid #FFF; */
+ }
 .rodape{
     margin-top: 0px;
     width: 100%;
     height: 300px;
-    border: 1px solid rgb(255, 0, 179);
+    /* border: 1px solid rgb(255, 0, 179); */
     text-align: center;
     /* position: end; */
     align-items:start ;
+    background-color: #000000;
+    
 }
